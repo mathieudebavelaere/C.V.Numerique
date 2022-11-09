@@ -1,0 +1,205 @@
+/*-----------NavBar--------------*/
+nav {
+    background: linear-gradient(rgb(114, 114, 114), #3b3b3b);
+}
+
+.general {
+    display: grid;
+    grid-column: auto auto auto auto auto auto;
+    grid-row: auto auto auto auto;
+}
+
+.profil,
+.ARP2 {
+    grid-column: 2/6;
+    grid-row: 2/4;
+    height: 100px;
+    width: 100px;
+}
+
+.name {
+    grid-column: 3/6;
+    grid-row: 2/4;
+    color: rgb(244, 244, 244);
+    font-size: 30px;
+    margin: 3%;
+}
+
+.Bcont {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-column: 3/6;
+    grid-row: 3/4;
+    color: whitesmoke;
+    width: 200px;
+}
+
+#contact {
+    color: aliceblue;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+
+#contact:hover {
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+/*-----------FinNavBar--------------*/
+/*-----------Formation--------------*/
+#formation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    margin: 5%;
+}
+
+
+.titre {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 80%;
+    color: rgb(244, 244, 244);
+    background-color: rgba(255, 255, 255, 0.458);
+    height: 60px;
+    width: 90%;
+    padding: 1%;
+    border-radius: 10px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+
+.titre:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.picture {
+    height: 50px;
+    border-radius: 10px;
+}
+
+/*-----------FinDeFormation--------------*/
+/*---------------- barre de progression ------------------*/
+.blockcomp {
+    grid-row: 2;
+    grid-column: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+.titrecomp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin: 5%;
+    color: rgb(255, 255, 255);
+    
+}
+.competences {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.458);
+    border-radius: 20px;
+    margin: 2%;
+}
+
+.icons {
+    height: 25px;
+    margin: 5px;
+}
+
+.barcontainer {
+    display: flex;
+    align-items: flex-end;
+    margin: 5px;
+    background-color: #cfcfcf;
+    width: 20px;
+    height: 200px;
+    float: none;
+    border-radius: 10px;
+    border: solid white 2px;
+}
+
+.bar {
+    background-color: #3bab42;
+    width: 100%;
+    height: 80%;
+    border-radius: 9px;
+    animation: grow 2s ease-out forwards;
+    transform-origin: bottom;
+}
+
+@keyframes grow {
+    from {
+        transform: scaleY(0);
+    }
+}
+
+/*---------------- barre de progression ------------------*/
+/*--------------Profolios--------------*/
+.slider {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10px;
+    color: rgb(244, 244, 244);
+    background-color: rgba(255, 255, 255, 0.458);
+    border-radius: 0px;
+}
+
+.site1 {
+    height: 80px;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
+}
+
+.site1:hover {
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+.site1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.site2,
+.site3,
+.site4 {
+    opacity: 0%;
+
+}
+
+.namesite {
+    font-size: 300%;
+}
+
+/*--------------FinDeProfilios--------------*/
