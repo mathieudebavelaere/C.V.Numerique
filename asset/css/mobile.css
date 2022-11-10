@@ -1,0 +1,77 @@
+@media all and (max-width: 768px) {
+
+    .color {
+        display: none;
+    }
+
+    .ARP2 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .namev {
+        font-size: 20px;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    ::selection {
+        background-color: #000;
+        color: #fff;
+    }
+
+    /* Bouton d'ouverture / fermeture */
+    #boutonVolet {
+        position: fixed;
+        z-index: 3;
+        margin: 3%;
+        color: whitesmoke;
+        cursor: pointer;
+        border-radius: 20px;
+        opacity: 0.6;
+        transition: opacity 1s;
+    }
+
+    #boutonVolet:hover {
+        opacity: 1;
+    }
+
+    .bordure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 90%;
+        width: 90%;
+        background-color: #c7a02caf;
+        border: solid whitesmoke;
+        border-radius: 5%;
+
+    }
+
+    /* Volet gauche */
+    #voletGauche {
+        position: fixed;
+        top: 0;
+        left: -60vw;
+        width: 60vw;
+        height: 40vh;
+        background-color: rgba(124, 124, 124, 0.907);
+        /* Centrage horizontal et vertical */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* Transition CSS sur l'opacité */
+        opacity: 1;
+        transition: left 1s;
+        border-radius: 5%;
+    }
+
+    #voletGauche.ouvert {
+        z-index: 1;
+        left: 0vw;
+    }
+
+
+}

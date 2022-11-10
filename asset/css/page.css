@@ -1,9 +1,19 @@
 /*-----------NavBar--------------*/
 nav {
-    background: linear-gradient(rgb(114, 114, 114), #3b3b3b);
+    background: linear-gradient(#c7a02c61, #3b3b3b);
+    height: 100px;
+}
+
+#boutonVolet {
+    opacity: 0%;
+}
+
+#voletGauche {
+    display: none;
 }
 
 .general {
+    padding: 2%;
     display: grid;
     grid-column: auto auto auto auto auto auto;
     grid-row: auto auto auto auto;
@@ -23,6 +33,7 @@ nav {
     color: rgb(244, 244, 244);
     font-size: 30px;
     margin: 3%;
+    
 }
 
 .Bcont {
@@ -35,8 +46,12 @@ nav {
     width: 200px;
 }
 
+.linkedin {
+    height: 19px;
+}
+
 #contact {
-    color: aliceblue;
+    color: whitesmoke;
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: 0.4s ease-in-out;
@@ -50,14 +65,21 @@ nav {
 
 /*-----------FinNavBar--------------*/
 /*-----------Formation--------------*/
+.name2 {
+    font-size: 150%;
+}
+
+.name3 {
+    font-size: 130%;
+}
+
 #formation {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60px;
-    margin: 5%;
+    height: 80px;
+    margin: 13%;
 }
-
 
 .titre {
     display: flex;
@@ -67,9 +89,10 @@ nav {
     text-align: center;
     text-decoration: none;
     font-size: 80%;
+    border: solid rgba(245, 245, 245, 0.437);
     color: rgb(244, 244, 244);
-    background-color: rgba(255, 255, 255, 0.458);
-    height: 60px;
+    background-color: #c7a02c74;
+    height: 70px;
     width: 90%;
     padding: 1%;
     border-radius: 10px;
@@ -79,18 +102,30 @@ nav {
     transition: 1s ease-in-out;
 }
 
+.blockf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .titre:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
 .picture {
-    height: 50px;
+    height: 70px;
     border-radius: 10px;
 }
 
 /*-----------FinDeFormation--------------*/
 /*---------------- barre de progression ------------------*/
+#formation2 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 100px;
+}
 .blockcomp {
     grid-row: 2;
     grid-column: 2;
@@ -101,16 +136,18 @@ nav {
     align-content: center;
 
 }
+
 .titrecomp {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     margin: 5%;
     color: rgb(255, 255, 255);
-    
+
 }
+
 .competences {
     list-style: none;
     display: flex;
@@ -156,8 +193,39 @@ nav {
     }
 }
 
-/*---------------- barre de progression ------------------*/
+/*---------------FinDeBarreDeProgression------------------*/
+/*---------------BarreDeLogo------------------*/
+
+.logocomp {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 5px;
+    width: 100%;
+    border: solid rgba(245, 245, 245, 0.437);
+    background-color:#c7a02c92;
+}
+.icon2 {
+    height: 1500%;
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
+}
+.icon2:hover {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+}
+/*---------------FinDeBarreDeLogo------------------*/
 /*--------------Profolios--------------*/
+
+#formation3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
 .slider {
     display: flex;
     flex-direction: column;
@@ -167,8 +235,9 @@ nav {
     width: 100%;
     height: 10px;
     color: rgb(244, 244, 244);
-    background-color: rgba(255, 255, 255, 0.458);
-    border-radius: 0px;
+    border: solid rgba(245, 245, 245, 0.437);
+    background-color:#c7a02c92;
+    
 }
 
 .site1 {
@@ -203,3 +272,45 @@ nav {
 }
 
 /*--------------FinDeProfilios--------------*/
+
+/*-------------ParcoursProfessionelles-----------------------*/
+#formation4 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 200px;
+}
+.parcours {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+  
+}
+.ligne {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 2;
+    height: 5px;
+    width: 100%;
+    background-color: #c7a02c92;
+    border: solid rgba(245, 245, 245, 0.437);
+}
+.button {
+    font-size: 15px;
+    color: #c7a02cc7;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    border: none;
+    border: solid whitesmoke;
+}
+
+.button:hover {
+    border: solid whitesmoke;
+    background-color:#c7a02c92;
+    color: whitesmoke;
+}
+
+/*____________*/

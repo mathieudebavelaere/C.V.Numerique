@@ -22,4 +22,15 @@ setTimeout(()=>{
   popup.style.display="none"},2000)
 })
 /*--------------FinD'AnimationAccueil--------------*/
+/*-------------------BurgerMenu--------------------*/
+let bouton = document.getElementById("boutonVolet");
+let volet = document.getElementById("voletGauche");
 
+// Fonction : ouvre / ferme le volet
+function ouvreFermeVolet(){
+  volet.classList.toggle("ouvert");
+}
+
+// Activation et programmation des clics
+bouton.addEventListener('click', ouvreFermeVolet);
+/*-------------------BurgerMenu--------------------*/
