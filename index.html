@@ -5,11 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="asset/css/body.css">
-  <link rel="stylesheet" href="asset/css/accueil.css">
-  <link rel="stylesheet" href="asset/css/animationAccueil.css">
-  <link rel="stylesheet" href="asset/css/page.css">
-  <link rel="stylesheet" href="asset/css/mobile.css">
+          <!------------IconDansLaBarNav------------->
+          <link rel="shortcut icon" href="./asset/img/iconCV.png" type="image/x-icon">
+          <!----------FinDeL'IconDansLaBarNav----------->
+  <link rel="stylesheet" href="./asset/css/body.css">
+  <link rel="stylesheet" href="./asset/css/accueil.css">
+  <link rel="stylesheet" href="./asset/css/animationAccueil.css">
+  <link rel="stylesheet" href="./asset/css/page.css">
+  <link rel="stylesheet" href="./asset/css/mobile.css">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +26,7 @@
     <!----------------------VoletDeGauche------------------------------->
     <div id="voletGauche">
       <span class="bordure">
-        <img class="ARP2" src="asset/img/arrière-plan.png" alt="#">
+        <img class="ARP2" src="./asset/img/arrière-plan.png" alt="#">
         <p class="namev">Debavelaere Mathieu<br>Chirry-Ourscamp</p>
         <div class="Bcont">
           <a href="#"><span id="contact" class="material-symbols-outlined">phone_android</span></a>
@@ -39,7 +42,7 @@
     <!-------------------------------NavBar----------------------------------------->
     <nav class="color">
       <div class="general">
-        <img class="ARP2" src="asset/img/arrière-plan.png" alt="#">
+        <img class="ARP2" src="./asset/img/arrière-plan.png" alt="#">
         <p class="name">Debavelaere Mathieu</p>
         <div class="Bcont">
           <a href="#"><span id="contact" class="material-symbols-outlined">phone_android</span></a>
@@ -67,7 +70,7 @@
         <a href="https://lamanu.fr" class="titre">
           <p class="name2">La Manu école du Numérique</p><br>
           <p class="name3">TP Développeur Web et Web Mobile (PRF)</p>
-          <img class="picture" src="asset/img/picture.png" alt="#">
+          <img class="picture" src="./asset/img/picture.png" alt="#">
         </a>
       </div>
     </div>
@@ -125,15 +128,15 @@
     </div>
     <div class="blockf">
       <div class="logocomp">
-        <img class="icon2" src="asset/img/html5.png">
-        <img class="icon2" src="asset/img/css3.png">
-        <img class="icon2" src="asset/img/js.png">
+        <img class="icon2" src="./asset/img/html5.png">
+        <img class="icon2" src="./asset/img/css3.png">
+        <img class="icon2" src="./asset/img/js.png">
 
         <!--
     <img class="icon2" src="asset/img/php.png">
     -->
-        <img class="icon2" src="asset/img/figma.png">
-        <img class="icon2" src="asset/img/affintyD.png">
+        <img class="icon2" src="./asset/img/figma.png">
+        <img class="icon2" src="./asset/img/affintyD.png">
       </div>
     </div>
     <!------------------------------FinDeCompétences----------------------------------------->
@@ -143,15 +146,16 @@
     </div>
     <div class="slider">
       <div class="site1">
-        <img class="tpsite1" src="asset/img/eliquide.png" alt="#">
-        <p class="namesite">E-liquide</p>
+        <a href="https://mathieudebavelaere.github.io/ShiFuMi-Mario/">
+        <img class="tpsite1" src="./asset/img/shifumi.png" alt="shifumi">
+        </a>
       </div>
-
+<!--
       <div class="site1">
         <img class="tpsite1" src="asset/img/lego.png" alt="#">
         <p class="namesite">Lego EXPO</p>
       </div>
-
+-->
       <!--
       <div class="site3">
           <img class="tpsite3" src="asset/img/eliquide.png" alt="#">
@@ -171,10 +175,19 @@
     <div id="formation4">
       <p class="name">Mon Parcours</p>
     </div>
+    <div id="gestionTaille" class="boiteParcour">
     <div class="slider"></div>
+    <div class="time">
+      <button id="date22" class="buttonValide">2022</button>
+      <button id="date17" class="button">2017-21</button>
+      <button id="date15" class="button">2015-17</button>
+      <button id="date13" class="button">2013-15</button>
+      <button id="date11" class="button">2011-13</button>
+    </div>
     <div class="parcours">
-      <button class="button">2022</button>
-      <ul class="emplois">
+      
+      <!--2022-->
+      <ul id="emplois22" class="text22N">
         <p class="metier">Serveur, Restaurant Le Comptoir du Malt à Noyon (60)</p><br>
         <li>
           <p>Service des débits de boissons</p>
@@ -195,8 +208,9 @@
 
     </div>
     <div class="parcours">
-      <button class="button">2017-21</button>
-      <ul class="emplois">
+     
+      <!--2017-21-->
+      <ul id="emplois17" class="text17">
 
         <p class="metier">Responsable, adjoint de direction Restaurant D’el Arte à Amiens et Glisy (80)</p>
         <br>
@@ -223,9 +237,10 @@
         </li>
       </ul>
     </div>
-    <div class="parcours">
-      <button class="button">2015-17</button>
-      <ul class="emplois">
+    <div class="parcours" >
+      
+      <!--2015-17-->
+      <ul id="emplois15" class="text15">
 
         <p class="metier">Serveur, Bar Pasta Di Nonna à Amiens (80)</p>
         </li><br>
@@ -247,9 +262,10 @@
       </ul>
 
     </div>
-    <div class="parcours">
-      <button class="button">2013-15</button>
-      <ul class="emplois">
+    <div class="parcours" >
+      
+      <!--2013-15-->
+      <ul id="emplois13" class="text13">
 
         <p class="metier">Serveur, Bar Le Flore à Amiens (80)</p>
         <br>
@@ -271,8 +287,9 @@
       </ul>
     </div>
     <div class="parcours">
-      <button class="button">2011-13</button>
-      <ul class="emplois">
+      
+      <!--2011-13-->
+      <ul id="emplois11" class="text11">
 
         <p class="metier">Février à Avril 2013 : Employé aux Fruits et légumes, Leclerc.E à Montdidier (80)</p>
         <br>
@@ -315,7 +332,7 @@
         </li><br><br>
       </ul>
     </div>
-
+</div>
 
 
     <!----------------------------FinDeParcoursProfessionelles-------------------------------------->
@@ -339,7 +356,7 @@
     <!----------------------------FinDesHobbies-------------------------------------->
     <!----------------------------Footer-------------------------------------->
     <footer class="fin">
-      <p class="emplois">Copyright: @Debavelaere Mathieu</p>
+      <p class="emplois">@Debavelaere Mathieu</p>
     </footer>
     <!----------------------------FinDuFooter-------------------------------------->
     <!---------------POP-UP------------------>
@@ -353,8 +370,8 @@
       <div id="boite" class="container shadow">
         <div class="enter1">
           <div class="fond"></div>
-          <img class="ARP" src="asset/img/arrière-plan.png" alt="#">
-          <img class="cercle" id="cercle" src="asset/img/cercle.png" alt="#">
+          <img class="ARP" src="./asset/img/arrière-plan.png" alt="#">
+          <img class="cercle" id="cercle" src="./asset/img/cercle.png" alt="#">
         </div>
         <div class="boiteB">
           <p class="bienvenue">Bienvenue sur mon C.V.</p><br>
@@ -365,7 +382,7 @@
   </div>
   <!---------------FinDePOP-UP------------------>
 
-  <script src="asset/js/main.js"></script>
+  <script src="./asset/js/main.js"></script>
 </body>
 
 </html>

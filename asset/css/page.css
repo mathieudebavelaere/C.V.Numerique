@@ -104,6 +104,7 @@ nav {
 
 .blockf {
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
 }
@@ -124,7 +125,7 @@ nav {
     display: flex;
     align-items: start;
     justify-content: center;
-    height: 100px;
+    height: 50px;
     margin: 50px;
 }
 
@@ -147,7 +148,6 @@ nav {
     font-size: 30px;
     margin: 5%;
     color: rgb(255, 255, 255);
-
 }
 
 .competences {
@@ -229,8 +229,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
-    margin: 50px;
+    margin: 10px;
 }
 
 .slider {
@@ -271,7 +270,6 @@ nav {
 .site3,
 .site4 {
     opacity: 0%;
-
 }
 
 .namesite {
@@ -286,6 +284,76 @@ nav {
     align-items: flex-end;
     justify-content: center;
     height: 200px;
+}
+
+#date22 {}
+
+.text22 {
+    opacity: 0%;
+    transition: 1s;
+    z-index: 2;
+}
+
+.text22N {
+    opacity: 100%;
+    transition: 1s;
+    z-index: 2;
+}
+
+#date17 {}
+
+.text17 {
+    opacity: 0%;
+    transition: 1s;
+    z-index: 2;
+}
+
+.text17N {
+    opacity: 100%;
+    transition: 1s;
+    z-index: 2;
+}
+
+#date15 {}
+
+.text15 {
+    opacity: 0%;
+    transition: 1s;
+    z-index: 2;
+}
+
+.text15N {
+    opacity: 100%;
+    transition: 1s;
+    z-index: 2;
+}
+
+#date13 {}
+
+.text13 {
+    opacity: 0%;
+    transition: 1s;
+    z-index: 2;
+}
+
+.text13N {
+    opacity: 100%;
+    transition: 1s;
+    z-index: 2;
+}
+
+#date11 {}
+
+.text11 {
+    opacity: 0%;
+    transition: 1s;
+    z-index: 2;
+}
+
+.text11N {
+    opacity: 100%;
+    transition: 1s;
+    z-index: 2;
 }
 
 .parcours {
@@ -309,7 +377,7 @@ nav {
 }
 
 .button {
-    position: absolute;
+    margin: 20px;
     font-size: 15px;
     color: #e3b835c7;
     height: 70px;
@@ -320,15 +388,49 @@ nav {
     border: solid whitesmoke;
 }
 
+.buttonValide {
+    margin: 20px;
+    font-size: 15px;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    border: solid whitesmoke;
+    background-color: #c7a02c92;
+    color: whitesmoke;
+}
+
 .button:hover {
     border: solid whitesmoke;
     background-color: #c7a02c92;
     color: whitesmoke;
 }
 
-.emplois {
+#emplois22,
+#emplois17,
+#emplois15,
+#emplois13,
+#emplois11 {
+    position: absolute;
     margin: 80px;
     color: whitesmoke;
+}
+
+.boiteParcour {
+    height: 350px;
+    transition: 1.5s;
+}
+
+.boiteParcour2 {
+    height: 750px;
+    transition: 1s;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10px;
 }
 
 /*---------------------Hobies-----------------------*/
@@ -366,7 +468,7 @@ nav {
     width: 120px;
     font-size: 10px;
     content: attr(aria-label);
-    
+
     position: absolute;
     top: -2em;
     left: -120%;
@@ -377,11 +479,12 @@ nav {
 
 /*---------------------Footer-------------------------*/
 .fin {
+    color: whitesmoke;
     display: flex;
+    flex-direction: column;
     align-items: center;
     border: solid rgba(245, 245, 245, 0.437);
     background-color: #c7a02c92;
-    height: 100px;
+    height: 70px;
 }
-
 /*____________*/
