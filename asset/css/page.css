@@ -50,7 +50,8 @@ nav {
     height: 19px;
 }
 
-#contact {
+.contact {
+    text-decoration: none;
     color: whitesmoke;
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -58,7 +59,7 @@ nav {
     transition: 0.4s ease-in-out;
 }
 
-#contact:hover {
+.contact:hover {
     -webkit-transform: scale(1.4);
     transform: scale(1.4);
 }
@@ -121,7 +122,7 @@ nav {
 
 /*-----------FinDeFormation--------------*/
 /*---------------- barre de progression ------------------*/
-#formation2 {
+.formation2 {
     display: flex;
     align-items: start;
     justify-content: center;
@@ -434,7 +435,7 @@ nav {
 }
 
 /*---------------------Hobies-----------------------*/
-#formation3 {
+.formation3 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -444,6 +445,7 @@ nav {
 .metier {
     font-size: 18px;
     color: #d0b256;
+    list-style-type: none;
 }
 
 

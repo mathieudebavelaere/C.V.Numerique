@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <!------------IconDansLaBarNav------------->
-          <link rel="shortcut icon" href="./asset/img/iconCV.png" type="image/x-icon">
-          <!----------FinDeL'IconDansLaBarNav----------->
+  <!------------IconDansLaBarNav------------->
+  <link rel="shortcut icon" href="./asset/img/iconCV.png" type="image/x-icon">
+  <!----------FinDeL'IconDansLaBarNav----------->
   <link rel="stylesheet" href="./asset/css/body.css">
   <link rel="stylesheet" href="./asset/css/accueil.css">
   <link rel="stylesheet" href="./asset/css/animationAccueil.css">
@@ -22,141 +22,114 @@
 </head>
 
 <body>
+  <!---------------POP-UP-ENTER----------------->
+  <div class="row shadow" id="popup">
+    <div class="box small-6 large-centered">
+      <div id="boite" class="container shadow">
+        <div class="enter1">
+          <div class="fond"></div>
+          <img class="ARP" src="./asset/img/arrière-plan.png" alt="photoProfil">
+          <img class="cercle" id="cercle" src="./asset/img/cercle.png" alt="cercle">
+        </div>
+        <div class="boiteB">
+          <p class="bienvenue">Bienvenue sur mon C.V.</p>
+          <p class="bienvenue1">Cliquer sur mon image pour entré</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---------------FinDePOP-UP-ENTER----------------->
   <div id="overlay" class="cover blur-in">
     <!----------------------VoletDeGauche------------------------------->
     <div id="voletGauche">
-      <span class="bordure">
-        <img class="ARP2" src="./asset/img/arrière-plan.png" alt="#">
+      <div class="bordure">
+        <img class="ARP2" src="./asset/img/arrière-plan.png" alt="photoProfil">
         <p class="namev">Debavelaere Mathieu<br>Chirry-Ourscamp</p>
         <div class="Bcont">
-          <a href="number:0619325805"><span id="contact" class="material-symbols-outlined">phone_android</span></a>
-          <a href="mailto:mathieu.debavelaere@hotmail.com?subject=Sujet du message"><span id="contact"
-              class="material-symbols-outlined">mail</span></a>
-          <a href="./asset/pdf/C.V.DebavelaereMathieu.pdf"><span id="contact" class="material-symbols-outlined">download</span></a>
-          <a href="https://www.linkedin.com/in/mathieu-debavelaere-b38825253/"><img id="contact" class="linkedin"
-              src="asset/img/linkedin.png" alt="#"></a>
+          <a href="number:0619325805"><span class="material-symbols-outlined contact">phone_android</span></a>
+          <a href="mailto:mathieu.debavelaere@hotmail.com?subject=Sujet\ du\ message"><span
+              class="material-symbols-outlined contact">mail</span></a>
+          <a href="./asset/pdf/C.V.DebavelaereMathieu.pdf"><span
+              class="material-symbols-outlined contact">download</span></a>
+          <a href="https://www.linkedin.com/in/mathieu-debavelaere-b38825253/"><img class="linkedin contact"
+              src="asset/img/linkedin.png" alt="iconLinkedin"></a>
         </div>
-      </span>
+      </div>
     </div>
     <!----------------------FinDeVoletDeGauche------------------------------->
     <!-------------------------------NavBar----------------------------------------->
-    <nav class="color">
-      <div class="general">
-        <img class="ARP2" src="./asset/img/arrière-plan.png" alt="#">
-        <p class="name">Debavelaere Mathieu</p>
-        <div class="Bcont">
-          <a href="#"><span id="contact" class="material-symbols-outlined">phone_android</span></a>
-          <a href="mailto:mathieu.debavelaere@hotmail.com?subject=Sujet du message"><span id="contact"
-              class="material-symbols-outlined">mail</span></a>
-          <a href="#"><span id="contact" class="material-symbols-outlined">download</span></a>
-          <a href="https://www.linkedin.com/in/mathieu-debavelaere-b38825253/"><img id="contact" class="linkedin"
-              src="asset/img/linkedin.png" alt="#"></a>
+    <header>
+      <nav class="color">
+        <div class="general">
+          <img class="ARP2" src="./asset/img/arrière-plan.png" alt="photoProfil">
+          <h1 class="name">Debavelaere Mathieu</h1>
+          <div class="Bcont">
+            <a href="#"><span class="material-symbols-outlined contact">phone_android</span></a>
+            <a href="mailto:mathieu.debavelaere@hotmail.com?subject=Sujet du message"><span
+                class="material-symbols-outlined contact">mail</span></a>
+            <a href="#"><span class="material-symbols-outlined contact">download</span></a>
+            <a href="https://www.linkedin.com/in/mathieu-debavelaere-b38825253/"><img class="linkedin contact"
+                src="asset/img/linkedin.png" alt="iconLinkedin"></a>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
     <!-------------------------------FinDeNavBar----------------------------------------->
-
     <!------------------------ButtonDeVolet(Mobile)-------------------------------->
-
     <span id="boutonVolet" class="material-symbols-outlined">arrow_back_ios<span
         class="material-symbols-outlined">badge</span></span>
-
     <!----------------------FinDuButtonDeVolet(Mobile)------------------------------->
+    <main>
+      <!-------------------------------Formation----------------------------------------->
+      <section id="formation">
+        <div class="blockf">
+          <h2 class="name">Formation en cours</h2>
+          <a href="https://lamanu.fr" class="titre">
+            <p class="name2">La Manu école du Numérique</p><br>
+            <p class="name3">TP Développeur Web et Web Mobile (PRF)</p>
+            <img class="picture" src="./asset/img/picture.png" alt="iconLaManu">
+          </a>
+        </div>
+      </section>
+      <!-------------------------------FinDeFormation----------------------------------------->
 
-    <!-------------------------------Formation----------------------------------------->
-    <div id="formation">
-      <div class="blockf">
-        <p class="name">Formation en cours</p>
-        <a href="https://lamanu.fr" class="titre">
-          <p class="name2">La Manu école du Numérique</p><br>
-          <p class="name3">TP Développeur Web et Web Mobile (PRF)</p>
-          <img class="picture" src="./asset/img/picture.png" alt="#">
-        </a>
-      </div>
-    </div>
-    <!-------------------------------FinDeFormation----------------------------------------->
+      <!-------------------------------Compétences----------------------------------------->
+      <section>
+        <div class="formation2">
+          <h2 class="name">Compétences</h2>
+        </div>
+        <div class="blockf">
+          <div class="logocomp">
+            <img class="icon2" src="./asset/img/html5.png" alt="iconHtml5">
+            <img class="icon2" src="./asset/img/css3.png" alt="iconCss3">
+            <img class="icon2" src="./asset/img/js.png" alt="iconJs">
 
-    <!-------------------------------Compétences----------------------------------------->
-    <!--
-    <div id="formation2">
-      <p class="name">Compétences</p>
-    </div>
-    <div class="blockcomp">
-      <ul class="competences">
-        <li>
-          <div class="barcontainer">
-            <div class="bar" style="height:60%">
-            </div>
-          </div>
-          <img class="icons" src="asset/img/html5.png">
-        </li>
-        <li>
-          <div class="barcontainer">
-            <div class="bar" style="height:50%"></div>
-          </div>
-          <img class="icons" src="asset/img/css3.png">
-        </li>
-        <li>
-          <div class="barcontainer">
-            <div class="bar" style="height:5%"></div>
-          </div>
-          <img class="icons" src="asset/img/js.png">
-        </li>
-        <li>
-          <div class="barcontainer">
-            <div class="bar" style="height:0%"></div>
-          </div>
-          <img class="icons" src="asset/img/php.png">
-        </li>
-        <li>
-          <div class="barcontainer">
-            <div class="bar" style="height:50%"></div>
-          </div>
-          <img class="icons" src="asset/img/figma.png">
-        </li>
-        <li>
-          <div class="barcontainer">
-            <div class="bar" style="height:70%"></div>
-          </div>
-          <img class="icons" src="asset/img/affintyD.png">
-        </li>
-      </ul>
-    </div>
-    -->
-    <div id="formation2">
-      <p class="name">Compétences</p>
-    </div>
-    <div class="blockf">
-      <div class="logocomp">
-        <img class="icon2" src="./asset/img/html5.png">
-        <img class="icon2" src="./asset/img/css3.png">
-        <img class="icon2" src="./asset/img/js.png">
-
-        <!--
+            <!--
     <img class="icon2" src="asset/img/php.png">
     -->
-        <img class="icon2" src="./asset/img/figma.png">
-        <img class="icon2" src="./asset/img/affintyD.png">
-      </div>
-    </div>
-    <!------------------------------FinDeCompétences----------------------------------------->
-    <!-------------------------------Portfolios----------------------------------------->
-    <div id="formation3">
-      <p class="name">portfolios</p>
-    </div>
-    <div class="slider">
-      <div class="site1">
-        <a href="https://mathieudebavelaere.github.io/ShiFuMi-Mario/">
-        <img class="tpsite1" src="./asset/img/shifumi.png" alt="shifumi">
-        </a>
-      </div>
-<!--
+            <img class="icon2" src="./asset/img/figma.png" alt="iconFigma">
+            <img class="icon2" src="./asset/img/affintyD.png" alt="iconAffinityDesigner">
+          </div>
+        </div>
+      </section>
+      <!------------------------------FinDeCompétences----------------------------------------->
+      <!-------------------------------Portfolios----------------------------------------->
+      <section>
+        <div class="formation3">
+          <h2 class="name">portfolios</h2>
+        </div>
+        <div class="slider">
+          <div class="site1">
+            <a href="https://mathieudebavelaere.github.io/ShiFuMi-Mario/">
+              <img class="tpsite1" src="./asset/img/shifumi.png" alt="shifumi">
+            </a>
+          </div>
+          <!--
       <div class="site1">
         <img class="tpsite1" src="asset/img/lego.png" alt="#">
         <p class="namesite">Lego EXPO</p>
-      </div>
--->
-      <!--
+      </div>-->
+          <!--
       <div class="site3">
           <img class="tpsite3" src="asset/img/eliquide.png" alt="#">
           <p class="namesite">E-liquide</p>
@@ -165,223 +138,205 @@
           <img class="tpsite4" src="asset/img/eliquide.png" alt="#">
           <p class="namesite">E-liquide</p>
       </div>-->
-    </div>
+        </div>
+      </section>
 
+      <!-------------------------------FinDePortfolios----------------------------------------->
+      <!------------------------------ParcoursProfessionelles--------------------------------------->
 
-    <!-------------------------------FinDePortfolios----------------------------------------->
-    <!------------------------------ParcoursProfessionelles--------------------------------------->
+      <section>
+        <div id="formation4">
+          <h2 class="name">Mon Parcours</h2>
+        </div>
+        <div id="gestionTaille" class="boiteParcour">
+          <div class="slider"></div>
+          <div class="time">
+            <button id="date22" class="buttonValide">2022</button>
+            <button id="date17" class="button">2017-21</button>
+            <button id="date15" class="button">2015-17</button>
+            <button id="date13" class="button">2013-15</button>
+            <button id="date11" class="button">2011-13</button>
+          </div>
+          <article class="parcours">
+            <!--2022-->
+            <ul id="emplois22" class="text22N">
+              <li class="metier">Serveur, Restaurant Le Comptoir du Malt à Noyon (60)</li>
+              <li>
+                Service des débits de boissons
+              </li>
+              <li>
+                Service à l'assiette
+              </li>
+              <li>
+                Encaissement des clients
+              </li>
+              <li>
+                Mise en place, nettoyage des rangs
+              </li>
+              <li>
+                Utilisation d’un pad
+              </li>
+            </ul>
 
+          </article>
+          <article class="parcours">
 
-    <div id="formation4">
-      <p class="name">Mon Parcours</p>
-    </div>
-    <div id="gestionTaille" class="boiteParcour">
-    <div class="slider"></div>
-    <div class="time">
-      <button id="date22" class="buttonValide">2022</button>
-      <button id="date17" class="button">2017-21</button>
-      <button id="date15" class="button">2015-17</button>
-      <button id="date13" class="button">2013-15</button>
-      <button id="date11" class="button">2011-13</button>
-    </div>
-    <div class="parcours">
-      
-      <!--2022-->
-      <ul id="emplois22" class="text22N">
-        <p class="metier">Serveur, Restaurant Le Comptoir du Malt à Noyon (60)</p><br>
-        <li>
-          <p>Service des débits de boissons</p>
-        </li>
-        <li>
-          <p>Service à l'assiette</p>
-        </li>
-        <li>
-          <p>Encaissement des clients</p>
-        </li>
-        <li>
-          <p>Mise en place, nettoyage des rangs</p>
-        </li>
-        <li>
-          <p>Utilisation d’un pad</p>
-        </li>
-      </ul>
+            <!--2017-21-->
+            <ul id="emplois17" class="text17">
 
-    </div>
-    <div class="parcours">
-     
-      <!--2017-21-->
-      <ul id="emplois17" class="text17">
+              <li class="metier">Responsable, adjoint de direction Restaurant D’el Arte à Amiens et Glisy (80)</li>
+              <li>
+                Chef de rang
+              </li>
+              <li>
+                Service des débits de boissons
+              </li>
+              <li>
+                Service à l'assiette
+              </li>
+              <li>
+                Ouverture et fermeture du Restaurant
+              </li>
+              <li>
+                Encaissement des clients
+              </li>
+              <li>
+                Mise en place, nettoyage des rangs
+              </li>
+              <li>
+                Utilisation d’un pad
+              </li>
+            </ul>
+          </article>
+          <article class="parcours">
 
-        <p class="metier">Responsable, adjoint de direction Restaurant D’el Arte à Amiens et Glisy (80)</p>
-        <br>
-        <li>
-          <p>Chef de rang</p>
-        </li>
-        <li>
-          <p>Service des débits de boissons</p>
-        </li>
-        <li>
-          <p>Service à l'assiette</p>
-        </li>
-        <li>
-          <p>Ouverture et fermeture du Restaurant</p>
-        </li>
-        <li>
-          <p>Encaissement des clients</p>
-        </li>
-        <li>
-          <p>Mise en place, nettoyage des rangs</p>
-        </li>
-        <li>
-          <p>Utilisation d’un pad</p>
-        </li>
-      </ul>
-    </div>
-    <div class="parcours" >
-      
-      <!--2015-17-->
-      <ul id="emplois15" class="text15">
+            <!--2015-17-->
+            <ul id="emplois15" class="text15">
 
-        <p class="metier">Serveur, Bar Pasta Di Nonna à Amiens (80)</p>
-        </li><br>
-<li>
-        <p>Service des débits de boissons</p>
-        </li>
-        <li>
-          <p>Service à l'assiette </p>
-        </li>
-        <li>
-          <p>fermeture du bar</p>
-        </li>
-        <li>
-          <p>Encaissement des clients</p>
-        </li>
-        <li>
-          <p>Utilisation d'un pad</p>
-        </li>
-      </ul>
+              <li class="metier">Serveur, Bar Pasta Di Nonna à Amiens (80)</li>
 
-    </div>
-    <div class="parcours" >
-      
-      <!--2013-15-->
-      <ul id="emplois13" class="text13">
+              <li>
+                Service des débits de boissons
+              </li>
+              <li>
+                Service à l'assiette
+              </li>
+              <li>
+                fermeture du bar
+              </li>
+              <li>
+                Encaissement des clients
+              </li>
+              <li>
+                Utilisation d'un pad
+              </li>
+            </ul>
 
-        <p class="metier">Serveur, Bar Le Flore à Amiens (80)</p>
-        <br>
-        <li>
-          <p>Service des débits de boissons</p>
-        </li>
-        <li>
-          <p>Service à l'assiette </p>
-        </li>
-        <li>
-          <p>Ouverture et fermeture du bar </p>
-        </li>
-        <li>
-          <p>Encaissement des clients </p>
-        </li>
-        <li>
-          <p>Utilisation d'un pad</p>
-        </li>
-      </ul>
-    </div>
-    <div class="parcours">
-      
-      <!--2011-13-->
-      <ul id="emplois11" class="text11">
+          </article>
+          <article class="parcours">
 
-        <p class="metier">Février à Avril 2013 : Employé aux Fruits et légumes, Leclerc.E à Montdidier (80)</p>
-        <br>
-        <li>
-          <p>Mise en rayons</p>
-        </li>
-        <li>
-          <p>Rotation des produits</p>
-        </li><br><br>
+            <!--2013-15-->
+            <ul id="emplois13" class="text13">
 
+              <li class="metier">Serveur, Bar Le Flore à Amiens (80)</li>
+              <li>
+                Service des débits de boissons
+              </li>
+              <li>
+                Service à l'assiette
+              </li>
+              <li>
+                Ouverture et fermeture du bar
+              </li>
+              <li>
+                Encaissement des clients
+              </li>
+              <li>
+                Utilisation d'un pad
+              </li>
+            </ul>
+          </article>
+          <article class="parcours">
 
-        <p class="metier">Juillet à Août 2012 : Serveur
-          Bar Le Cocotier à saint-hilaire de riez (85)</p>
-        <br>
-        <li>
-          <p>Service des débits de boissons</p>
-        </li>
-        <li>
-          <p>Service de vente de glaces</p>
-        </li><br><br>
+            <!--2011-13-->
+            <ul id="emplois11" class="text11">
+              <li class="metier">Février à Avril 2013 : Employé aux Fruits et légumes, Leclerc.E à Montdidier
+                (80)</li>
+              <li>
+                Mise en rayons
+              </li>
+              <li>
+                Rotation des produits
+              </li>
 
+              <li class="metier">Juillet à Août 2012 : Serveur
+                Bar Le Cocotier à saint-hilaire de riez (85) </li>
+              <li>
+                Service des débits de boissons
+              </li>
+              <li>
+                Service de vente de glaces
+              </li>
 
-        <p class="metier">Avril à Juin 2012 : Employé aux Fruits et légumes, Leclerc.E à Montdidier (80)</p>
-        <br>
-        <li>
-          <p>Mise en rayons</p>
-        </li>
-        <li>
-          <p>Rotation des produits</p>
-        </li><br><br>
+              <li class="metier">Avril à Juin 2012 : Employé aux Fruits et légumes, Leclerc.E à Montdidier (80)</li>
+              <li>
+                Mise en rayons
+              </li>
+              <li>
+                Rotation des produits
+              </li>
 
+              <li class="metier">Juillet à Août 2011 : Serveur Bar Le Cocotier à saint-hilaire de riez (85)</li>
+              <li>
+                Service des débits de boissons
+              </li>
+              <li>
+                Service de vente de glaces
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+      <!----------------------------FinDeParcoursProfessionelles-------------------------------------->
+      <!------------------------------------Hobbies---------------------------------------->
+      <section>
+        <div class="formation2">
+          <h2 class="name">Hobbies</h2>
+        </div>
+        <div class="slider"></div>
+        <article class="formation3">
 
-        <p class="metier">Juillet à Août 2011 : Serveur Bar Le Cocotier à saint-hilaire de riez (85)</p>
-        <br>
-        <li>
-          <p>Service des débits de boissons</p>
-        </li>
-        <li>
-          <p>Service de vente de glaces</p>
-        </li><br><br>
-      </ul>
-    </div>
-</div>
+          <div class="infobulle" aria-label="Tablette Graphique">
+            <div class="material-symbols-outlined">
+              <p>tablet_mac</p>
+            </div>
+          </div>
+          <div class="infobulle" aria-label="Dessins">
+            <div class="material-symbols-outlined">
+              <p>draw</p>
+            </div>
+          </div>
+          <div class="infobulle" aria-label="Jeux Video">
+            <div class="material-symbols-outlined">
+              <p>stadia_controller</p>
+            </div>
+          </div>
+          <div class="infobulle" aria-label="Livres">
+            <div class="material-symbols-outlined">
+              <p>menu_book</p>
+            </div>
+          </div>
 
-
-    <!----------------------------FinDeParcoursProfessionelles-------------------------------------->
-    <!------------------------------------Hobbies---------------------------------------->
-
-    <div id="formation2">
-      <p class="name">Hobbies</p>
-    </div>
-
-    <div class="slider"></div>
-
-    <div id="formation3">
-      <span class="infobulle" aria-label="Tablette Graphique"><span
-          class="material-symbols-outlined">tablet_mac</span></span>
-      <span class="infobulle" aria-label="Dessins"><span class="material-symbols-outlined">draw</span></span>
-      <span class="infobulle" aria-label="Jeux Video"><span
-          class="material-symbols-outlined">stadia_controller</span></span>
-      <span class="infobulle" aria-label="Livres"><span class="material-symbols-outlined">menu_book</span></span>
-    </div>
-
-    <!----------------------------FinDesHobbies-------------------------------------->
+        </article>
+      </section>
+      <!----------------------------FinDesHobbies-------------------------------------->
+    </main>
     <!----------------------------Footer-------------------------------------->
     <footer class="fin">
       <p class="emplois">@Debavelaere Mathieu</p>
     </footer>
     <!----------------------------FinDuFooter-------------------------------------->
-    <!---------------POP-UP------------------>
   </div>
-  </div>
-
-  <div class="row shadow" id="popup">
-
-    <div class="box small-6 large-centered">
-
-      <div id="boite" class="container shadow">
-        <div class="enter1">
-          <div class="fond"></div>
-          <img class="ARP" src="./asset/img/arrière-plan.png" alt="#">
-          <img class="cercle" id="cercle" src="./asset/img/cercle.png" alt="#">
-        </div>
-        <div class="boiteB">
-          <p class="bienvenue">Bienvenue sur mon C.V.</p><br>
-          <p class="bienvenue1">Cliquer sur mon image pour entré</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!---------------FinDePOP-UP------------------>
-
   <script src="./asset/js/main.js"></script>
 </body>
 
