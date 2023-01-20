@@ -74,4 +74,40 @@
     }
 
 
+    .titre {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: auto;
+        text-align: center;
+        text-decoration: none;
+        font-size: 80%;
+        border: solid rgba(245, 245, 245, 0.437);
+        color: rgb(244, 244, 244);
+        background-color: #c7a02c74;
+        height: 70px;
+        width: 80%;
+        padding: 1%;
+        margin-bottom: 20%;
+        border-radius: 10px;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: 1s ease-in-out;
+        transition: 1s ease-in-out;
+    }
+    .textinfo {
+        margin-top: 4%;
+        margin-bottom: 7%;
+        font-size: 20px;
+        text-align: center;
+        color: whitesmoke;
+    }
+
+.name {
+    grid-column: 3/6;
+    grid-row: 2/4;
+    color: rgb(244, 244, 244);
+    font-size: 30px;
+    margin-top: 20px;
+}
 }
