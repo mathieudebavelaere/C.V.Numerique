@@ -50,7 +50,7 @@ let emplois13 = document.getElementById('emplois13');
 let emplois11 = document.getElementById('emplois11');
 /*------------------Option taille------------------*/
 let gestionTaille = document.getElementById('gestionTaille');
-console.log(gestionTaille);
+
 
 
 
