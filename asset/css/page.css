@@ -308,7 +308,18 @@ nav {
     color: rgb(244, 244, 244);
     border: solid rgba(245, 245, 245, 0.437);
     background-color: #c7a02c92;
-
+}
+.sliderP {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 99%;
+    height: 10px;
+    color: rgb(244, 244, 244);
+    border: solid rgba(245, 245, 245, 0.437) 1px;
+    background-color: #c7a02c92;
 }
 
 .site1 {
